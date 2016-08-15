@@ -1,0 +1,17 @@
+# Test - Peter Vago, NI
+# This single-sequence
+#----------
+#Settings, Trace enable, set single measurements
+DISP:TRAC 0
+MEAS:CONT 0
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2402M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+

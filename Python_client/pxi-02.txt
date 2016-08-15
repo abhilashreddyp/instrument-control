@@ -1,0 +1,81 @@
+# Test - Peter Vago, NI
+# This is a multi-sequence, 2398-2404MHz
+#----------
+#Settings, Trace enable, set single measurements
+DISP:TRAC 1
+MEAS:CONT 0
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2398M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2399M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2400M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2401M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2402M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2403M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2404M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2405M
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+
+

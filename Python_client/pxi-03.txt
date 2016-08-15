@@ -1,0 +1,61 @@
+# Test - Peter Vago, NI
+# This is a multi-sequence script, 2398-2404MHz
+#----------
+#Settings, Trace enable, set single measurements
+DISP:TRAC 0
+MEAS:CONT 0
+#------------
+SENS:FREQ:SPAN 30M
+SENS:BAND:RES 100k
+SENS:RLEV -5
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2398M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2399M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2400M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2401M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2402M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2403M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2404M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+#Spectrum Config
+SENS:FREQ:CENT 2405M
+#----------
+#Measure once
+MEAS:MEAS
+#----------
+
+
